@@ -10,11 +10,11 @@
 </head>
 <body>
 
-  <header class="encabezado">
-    <nav class="navbar navbar-expand-lg navbar-dark navegacion_bootstrap">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand navegacion_titulo" href="#inicio">
-          UNINOVA<br /><span class="navegacion_sub">Semillero de Programacion Competitiva</span>
+        <a class="navbar-brand brand-title" href="#inicio">
+          UNINOVA<br /><span class="brand-sub">Semillero de Programacion Competitiva</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
             <li class="nav-item"><a class="nav-link text-white" href="#resultados">Logros</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#productos">Material</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galeria</a></li>
-            <li class="nav-item"><a class="nav-link enlace_destacado text-white px-3 ms-lg-2" href="#contacto">Unirse</a></li>
+            <li class="nav-item"><a class="nav-link nav-link btn-contact text-white px-3 ms-lg-2" href="#contacto">Unirse</a></li>
           </ul>
         </div>
       </div>
@@ -37,22 +37,22 @@
 
   <main>
 
-    <section id="inicio" class="portada">
-      <div class="contenedor">
-        <img src="img/banner.jpg" alt="Banner UNINOVA Algorithms" class="portada_banner" />
-        <p class="portada_antetitulo">Semillero de Programacion Competitiva</p>
+    <section id="inicio">
+      <div class="wrap">
+        <img src="img/banner.jpg" alt="Banner UNINOVA Algorithms" class="hero-banner" />
+        <p class="hero-tag">Semillero de Programacion Competitiva</p>
         <h1>UNINOVA ALGORITHMS</h1>
-        <p class="portada_lema">"Dominando la complejidad, un algoritmo a la vez"</p>
+        <p class="hero-motto">"Dominando la complejidad, un algoritmo a la vez"</p>
         <p>Somos un grupo apasionado por la resolucion de problemas complejos, algoritmos avanzados y estructuras de datos. Entrenamos para las maratones de programacion mas prestigiosas a nivel mundial como la ICPC.</p>
         <p>
-          <a href="#sobre" class="boton boton_principal">Entrenar</a>
-          <a href="#eventos" class="boton boton_claro">Proximas Maratones</a>
+          <a href="#sobre" class="btn btn-main">Entrenar</a>
+          <a href="#eventos" class="btn btn-ghost">Proximas Maratones</a>
         </p>
       </div>
     </section>
 
-    <section id="sobre" class="bloque bloque_claro">
-      <div class="contenedor">
+    <section id="sobre" class="light">
+      <div class="wrap">
         <h2>Nuestra Comunidad</h2>
         <p class="intro">Entrenamos la mente para resolver los retos mas dificiles de la computacion.</p>
 
@@ -75,76 +75,76 @@
         </ol>
 
         <h3>Temas de Estudio</h3>
-        <ul class="lista_lineas">
-          <li><span class="enfasis">Programacion Dinamica.</span> Optimizacion de problemas complejos mediante subproblemas.</li>
-          <li><span class="enfasis">Teoria de Grafos.</span> Algoritmos de flujo, caminos minimos y arboles de expansion.</li>
-          <li><span class="enfasis">Strings.</span> KMP, Z-Algorithm, Suffix Automata y procesamiento de texto.</li>
-          <li><span class="enfasis">Geometria Computacional.</span> Convex Hull, barrido de linea y productos vectoriales.</li>
+        <ul class="lines">
+          <li><span class="glow">Programacion Dinamica.</span> Optimizacion de problemas complejos mediante subproblemas.</li>
+          <li><span class="glow">Teoria de Grafos.</span> Algoritmos de flujo, caminos minimos y arboles de expansion.</li>
+          <li><span class="glow">Strings.</span> KMP, Z-Algorithm, Suffix Automata y procesamiento de texto.</li>
+          <li><span class="glow">Geometria Computacional.</span> Convex Hull, barrido de linea y productos vectoriales.</li>
         </ul>
       </div>
     </section>
 
-    <section id="eventos" class="bloque">
-      <div class="contenedor">
+    <section id="eventos">
+      <div class="wrap">
         <h2>Entrenamientos y Concursos</h2>
         <p class="intro">Mejora tu rating con nuestras actividades semanales.</p>
 
         <h3>Estado de Actividades</h3>
-        <ul class="lista_tarjetas">
+        <ul class="grid-cards">
           <li>
-            <article class="evento_actual">
-              <p class="fecha"><time datetime="2026-04-09">Hoy</time> &mdash; LIVE <span class="badge_estado badge_ahora">En curso</span></p>
+            <article class="current-event">
+              <p class="date"><time datetime="2026-04-09">Hoy</time> &mdash; LIVE <span class="badge badge-live">En curso</span></p>
               <h4>Entrenamiento Intensivo: Grafos y Flujo</h4>
               <p>Estamos resolviendo problemas de flujo maximo y emparejamiento bipartito en vivo. ¡Unete al Discord!</p>
-              <p class="detalle">Virtual (Discord). Finaliza a las 8:00 PM.</p>
+              <p class="detail">Virtual (Discord). Finaliza a las 8:00 PM.</p>
             </article>
           </li>
           <li>
             <article>
-              <p class="fecha"><time datetime="2026-04-15">15 abr</time> &mdash; Interna <span class="badge_estado badge_proximo">Proximo</span></p>
+              <p class="date"><time datetime="2026-04-15">15 abr</time> &mdash; Interna <span class="badge badge-next">Proximo</span></p>
               <h4>Maraton Interna UNINOVA 2026</h4>
               <p>Competencia individual de 5 horas para clasificar a los equipos representativos del semestre.</p>
-              <p class="detalle">Laboratorio de Software. 8:00 AM - 1:00 PM.</p>
+              <p class="detail">Laboratorio de Software. 8:00 AM - 1:00 PM.</p>
             </article>
           </li>
           <li>
             <article>
-              <p class="fecha"><time datetime="2026-05-10">10 may</time> &mdash; Oficial <span class="badge_estado badge_proximo">Proximo</span></p>
+              <p class="date"><time datetime="2026-05-10">10 may</time> &mdash; Oficial <span class="badge badge-next">Proximo</span></p>
               <h4>Regional ICPC 2026</h4>
               <p>Participacion de nuestros 3 mejores equipos en la fase regional clasificatoria a la Final Mundial.</p>
-              <p class="detalle">Sede Nacional. Todo el dia.</p>
+              <p class="detail">Sede Nacional. Todo el dia.</p>
             </article>
           </li>
         </ul>
 
         <h3>Actividades Finalizadas</h3>
-        <ul class="lista_tarjetas lista_tarjetas_apagada">
+        <ul class="grid-cards past-events">
           <li>
             <article>
-              <p class="fecha"><time datetime="2026-01-18">18 ene</time> &mdash; Camp <span class="badge_estado badge_finalizado">Finalizado</span></p>
+              <p class="date"><time datetime="2026-01-18">18 ene</time> &mdash; Camp <span class="badge badge-done">Finalizado</span></p>
               <h4>Training Camp de Verano</h4>
               <p>Dos semanas de problemas intensos nivel Div 2 Codeforces.</p>
-              <p class="detalle">Virtual (Vjudge).</p>
+              <p class="detail">Virtual (Vjudge).</p>
             </article>
           </li>
           <li>
             <article>
-              <p class="fecha"><time datetime="2025-11-05">05 nov</time> &mdash; Maratón <span class="badge_estado badge_finalizado">Finalizado</span></p>
+              <p class="date"><time datetime="2025-11-05">05 nov</time> &mdash; Maratón <span class="badge badge-done">Finalizado</span></p>
               <h4>Maraton Nacional de Programacion</h4>
               <p>Logramos el top 5 entre 80 universidades participantes.</p>
-              <p class="detalle">Bogota, Colombia.</p>
+              <p class="detail">Bogota, Colombia.</p>
             </article>
           </li>
         </ul>
       </div>
     </section>
 
-    <section id="equipos" class="bloque bloque_claro">
-      <div class="contenedor">
+    <section id="equipos" class="light">
+      <div class="wrap">
         <h2>Equipos Destacados</h2>
         <p class="intro">Nuestras ternas que compiten en el circuito oficial.</p>
 
-        <ul class="lista_equipos">
+        <ul class="grid-teams">
           <li class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -159,9 +159,9 @@
               <div class="flip-card-back">
                 <h3>Integrantes</h3>
                 <ul>
-                  <li><span class="enfasis">AP</span> Ana Gomez <span class="role">Lider / Grafos</span></li>
-                  <li><span class="enfasis">CM</span> Carlos Rios <span class="role">Matematicas</span></li>
-                  <li><span class="enfasis">LT</span> Laura Torres <span class="role">Implementacion</span></li>
+                  <li><span class="glow">AP</span> Ana Gomez <span class="role">Lider / Grafos</span></li>
+                  <li><span class="glow">CM</span> Carlos Rios <span class="role">Matematicas</span></li>
+                  <li><span class="glow">LT</span> Laura Torres <span class="role">Implementacion</span></li>
                 </ul>
                 <div class="team-stats">
                   <div class="stat"><span>Rating</span> 1640</div>
@@ -188,9 +188,9 @@
               <div class="flip-card-back">
                 <h3>Integrantes</h3>
                 <ul>
-                  <li><span class="enfasis">MC</span> Maria Suarez <span class="role">Lider / DP</span></li>
-                  <li><span class="enfasis">DA</span> Diego Mora <span class="role">Geometria</span></li>
-                  <li><span class="enfasis">VP</span> Valentina Pineda <span class="role">Strings</span></li>
+                  <li><span class="glow">MC</span> Maria Suarez <span class="role">Lider / DP</span></li>
+                  <li><span class="glow">DA</span> Diego Mora <span class="role">Geometria</span></li>
+                  <li><span class="glow">VP</span> Valentina Pineda <span class="role">Strings</span></li>
                 </ul>
                 <div class="team-stats">
                   <div class="stat"><span>Rating</span> 1580</div>
@@ -217,9 +217,9 @@
               <div class="flip-card-back">
                 <h3>Integrantes</h3>
                 <ul>
-                  <li><span class="enfasis">PV</span> Paula Ortiz <span class="role">Lider / Strings</span></li>
-                  <li><span class="enfasis">AF</span> Andres Cruz <span class="role">Grafos</span></li>
-                  <li><span class="enfasis">NB</span> Natalia Botero <span class="role">Matematicas</span></li>
+                  <li><span class="glow">PV</span> Paula Ortiz <span class="role">Lider / Strings</span></li>
+                  <li><span class="glow">AF</span> Andres Cruz <span class="role">Grafos</span></li>
+                  <li><span class="glow">NB</span> Natalia Botero <span class="role">Matematicas</span></li>
                 </ul>
                 <div class="team-stats">
                   <div class="stat"><span>Rating</span> 1420</div>
@@ -236,87 +236,87 @@
       </div>
     </section>
 
-    <section id="resultados" class="bloque bloque_oscuro">
-      <div class="contenedor">
+    <section id="resultados" class="dark">
+      <div class="wrap">
         <h2>Logros en Competencia</h2>
-        <p class="intro intro_claro">Nuestra trayectoria en el mundo competitivo.</p>
+        <p class="intro intro-light">Nuestra trayectoria en el mundo competitivo.</p>
 
-        <ul class="cifras">
-          <li><span class="cifra">Top 5</span> Nacional 2025</li>
-          <li><span class="cifra">450+</span> Problemas resueltos</li>
-          <li><span class="cifra">12</span> Podios Regionales</li>
-          <li><span class="cifra">3</span> Clasificaciones Regionales</li>
+        <ul class="stats">
+          <li><span class="num">Top 5</span> Nacional 2025</li>
+          <li><span class="num">450+</span> Problemas resueltos</li>
+          <li><span class="num">12</span> Podios Regionales</li>
+          <li><span class="num">3</span> Clasificaciones Regionales</li>
         </ul>
 
-        <ul class="lista_proyectos">
+        <ul class="results">
           <li>
             <article>
-              <p class="etiqueta">ICPC</p>
+              <p class="tag">ICPC</p>
               <h4>Regional ICPC Colombia 2024</h4>
               <p>Puesto 4 a nivel nacional, superando a mas de 60 equipos de diversas universidades del pais.</p>
               <p>Clasificacion al repechaje latinoamericano.</p>
-              <p class="pie_proyecto">Noviembre 2024 <span class="pie_proyecto_estado">Completado</span></p>
+              <p class="card-footer">Noviembre 2024 <span class="status-text">Completado</span></p>
             </article>
           </li>
           <li>
             <article>
-              <p class="etiqueta etiqueta_verde">Maratón</p>
+              <p class="tag tag-green">Maratón</p>
               <h4>Maraton de Programacion CCBOL</h4>
               <p>Primer lugar en la categoria avanzada, resolviendo 9 de 10 problemas propuestos en 4 horas.</p>
               <p>Trofeo de Oro y becas de estudio.</p>
-              <p class="pie_proyecto">Septiembre 2024 <span class="pie_proyecto_estado">Completado</span></p>
+              <p class="card-footer">Septiembre 2024 <span class="status-text">Completado</span></p>
             </article>
           </li>
           <li>
             <article>
-              <p class="etiqueta etiqueta_roja">Codeforces</p>
+              <p class="tag tag-red">Codeforces</p>
               <h4>Global Round #25</h4>
               <p>Participacion masiva del semillero logrando subir el rating promedio de los integrantes a Expert (Blue).</p>
               <p>5 miembros alcanzaron nivel Candidate Master.</p>
-              <p class="pie_proyecto">2024 - presente <span class="pie_proyecto_estado">En curso</span></p>
+              <p class="card-footer">2024 - presente <span class="status-text">En curso</span></p>
             </article>
           </li>
           <li>
             <article>
-              <p class="etiqueta">Training</p>
+              <p class="tag">Training</p>
               <h4>Vjudge Training League</h4>
               <p>Liderazgo regional en la liga de entrenamiento virtual con mas de 2000 envios exitosos en el ano.</p>
               <p>Mejor universidad de la zona norte.</p>
-              <p class="pie_proyecto">Anual <span class="pie_proyecto_estado">Completado</span></p>
+              <p class="card-footer">Anual <span class="status-text">Completado</span></p>
             </article>
           </li>
         </ul>
       </div>
     </section>
 
-    <section id="productos" class="bloque">
-      <div class="contenedor">
+    <section id="productos">
+      <div class="wrap">
         <h2>Material de Entrenamiento</h2>
         <p class="intro">Recursos para dominar los algoritmos.</p>
 
         <h3>Libros y Notebooks</h3>
-        <ul class="lista_productos">
-          <li><span class="tipo_doc">N</span> UNINOVA Team Notebook (C++). Codigo base para competencias (Templates, Geo, Grafos). <a href="#">Ver en GitHub</a></li>
-          <li><span class="tipo_doc">L</span> Competitive Programmer's Handbook (Guia de estudio). Antti Laaksonen. <a href="#">Descargar PDF</a></li>
+        <ul class="lines">
+          <li>UNINOVA Team Notebook (C++). Codigo base para competencias (Templates, Geo, Grafos). <a href="#">Ver en GitHub</a></li>
+          <li>Competitive Programmer's Handbook (Guia de estudio). Antti Laaksonen. <a href="#">Descargar PDF</a></li>
         </ul>
 
         <h3>Problemsets Destacados</h3>
-        <ul class="lista_productos">
-          <li><span class="tipo_doc">P</span> Grafos y Flujo: De basico a avanzado. 20 problemas seleccionados de Codeforces. <a href="#">Ir a Vjudge</a></li>
-          <li><span class="tipo_doc">P</span> Programacion Dinamica Clasica. Los mejores problemas de AtCoder Educational DP Contest. <a href="#">Ver lista</a></li>
-          <li><span class="tipo_doc">P</span> Geometria para Maratones. Ejercicios de precision y casos de borde. <a href="#">Descargar PDF</a></li>
+        <ul class="lines">
+          <li>Grafos y Flujo: De basico a avanzado. 20 problemas seleccionados de Codeforces. <a href="#">Ir a Vjudge</a></li>
+          <li>Programacion Dinamica Clasica. Los mejores problemas de AtCoder Educational DP Contest. <a href="#">Ver lista</a></li>
+          <li>Geometria para Maratones. Ejercicios de precision y casos de borde. <a href="#">Descargar PDF</a></li>
         </ul>
 
         <h3>Editoriales y Blogs</h3>
-        <ul class="lista_productos">
-          <li><span class="tipo_doc">E</span> Analisis de la Regional ICPC 2024. Soluciones explicadas por el equipo Segmentation Fault. <a href="#">Leer Blog</a></li>
-          <li><span class="tipo_doc">E</span> Optimizaciones de DP: Convex Hull Trick y Divide and Conquer. <a href="#">Ver guia</a></li>
+        <ul class="lines">
+          <li>Analisis de la Regional ICPC 2024. Soluciones explicadas por el equipo Segmentation Fault. <a href="#">Leer Blog</a></li>
+          <li>Optimizaciones de DP: Convex Hull Trick y Divide and Conquer. <a href="#">Ver guia</a></li>
         </ul>
       </div>
     </section>
 
-    <section id="galeria" class="bloque bloque_claro">
-      <div class="contenedor">
+    <section id="galeria" class="light">
+      <div class="wrap">
         <h2>Galeria del Semillero</h2>
         <p class="intro">Nuestra participacion en maratones y sesiones de entrenamiento.</p>
         <ul class="galeria">
@@ -372,20 +372,20 @@
       </div>
     </section>
 
-    <section id="contacto" class="bloque">
-      <div class="contenedor">
+    <section id="contacto">
+      <div class="wrap">
         <h2>Unirse al Semillero</h2>
         <p class="intro">¿Te gustan los retos? ¡Entrena con nosotros!</p>
 
         <h3>Informacion</h3>
-        <p><span class="enfasis">Correo:</span> algorithms.uninova@universidad.edu.co</p>
-        <p><span class="enfasis">Ubicacion:</span> Laboratorio de Software, Bloque B - Campus Principal.</p>
-        <p><span class="enfasis">Entrenamientos:</span> Martes y Jueves 4:00 PM - 8:00 PM.</p>
+        <p><span class="glow">Correo:</span> algorithms.uninova@universidad.edu.co</p>
+        <p><span class="glow">Ubicacion:</span> Laboratorio de Software, Bloque B - Campus Principal.</p>
+        <p><span class="glow">Entrenamientos:</span> Martes y Jueves 4:00 PM - 8:00 PM.</p>
         <p>
-          <a href="#" class="red_social">GitHub</a>
-          <a href="#" class="red_social">Codeforces</a>
-          <a href="#" class="red_social">Discord</a>
-          <a href="#" class="red_social">LinkedIn</a>
+          <a href="#" class="social">GitHub</a>
+          <a href="#" class="social">Codeforces</a>
+          <a href="#" class="social">Discord</a>
+          <a href="#" class="social">LinkedIn</a>
         </p>
 
         <h3>Postula tu equipo</h3>
@@ -406,16 +406,16 @@
             <label for="mensaje">Cuentanos tu experiencia en programacion</label><br />
             <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
           </p>
-          <p><button type="submit" class="boton boton_principal">Enviar Postulacion</button></p>
+          <p><button type="submit" class="btn btn-main">Enviar Postulacion</button></p>
         </form>
       </div>
     </section>
 
   </main>
 
-  <footer class="pie">
-    <div class="contenedor">
-      <p><span class="enfasis">UNINOVA ALGORITHMS</span> &mdash; Semillero de Programacion Competitiva. Resolucion de problemas y algoritmos.</p>
+  <footer>
+    <div class="wrap">
+      <p><span class="glow">UNINOVA ALGORITHMS</span> &mdash; Semillero de Programacion Competitiva. Resolucion de problemas y algoritmos.</p>
       <p>
         <a href="#inicio">Inicio</a> &middot;
         <a href="#sobre">Comunidad</a> &middot;
@@ -426,7 +426,7 @@
         <a href="#galeria">Galeria</a> &middot;
         <a href="#contacto">Unirse</a>
       </p>
-      <p class="pie_legal">&copy; 2026 UNINOVA Algorithms. Todos los derechos reservados.</p>
+      <p class="legal">&copy; 2026 UNINOVA Algorithms. Todos los derechos reservados.</p>
     </div>
   </footer>
 
